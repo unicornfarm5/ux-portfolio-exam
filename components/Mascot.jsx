@@ -94,16 +94,16 @@ export function Mascot() {
         <img
           src={publicUrl('/assets/thea1.png')}
           alt="Hej fra Thea"
-          className="mascot-greeting pointer-events-none absolute -top-14 left-1/2 h-20 w-auto -translate-x-1/2 object-contain"
+          className="mascot-greeting pointer-events-none absolute -top-14 left-1/2 h-20 w-auto -translate-x-[100%] object-contain"
         />
       )}
       {showGreeting2 && (
         <img
           src={publicUrl('/assets/thea2.png')}
           alt="Jeg vil følge med dig rundt på siden i dag"
-          className="mascot-greeting pointer-events-none absolute -top-14 left-1/2 h-20 w-auto -translate-x-1/2 object-contain"
+          className="mascot-greeting pointer-events-none absolute -top-24 left-1/2 h-32 w-auto max-w-none -translate-x-[150%] object-contain"
         />
-      )}
+        )}
       {showHeart && (
         <img
           src={publicUrl('/assets/heart.png')}
