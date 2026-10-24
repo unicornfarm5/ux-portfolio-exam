@@ -1,10 +1,12 @@
+import { publicUrl } from '../app/publicUrl.js'
+
 export function Experience() {
 	return (
 		<section className="section-wrap py-24">
 			<h2 className="section-title mb-14">Experience</h2>
 			<div className="grid gap-6 md:grid-cols-2">
 				<article className="relative border border-[#242323] p-7 pt-16 md:p-10 md:pt-20">
-					<img src="/assets/paperclip.png" alt="" aria-hidden="true" className="absolute left-1/2 top-6 z-10 w-14 -translate-x-1/2 -translate-y-1/2" />
+					<img src={publicUrl('/assets/paperclip.png')} alt="" aria-hidden="true" className="absolute left-1/2 top-6 z-10 w-14 -translate-x-1/2 -translate-y-1/2" />
 					<h3 className="mb-6 text-3xl">Student Job</h3>
 					<div className="body-copy">
 						<p>
@@ -17,7 +19,7 @@ export function Experience() {
 				</article>
 
 				<article className="relative border border-[#242323] p-7 pt-16 md:p-10 md:pt-20">
-					<img src="/assets/paperclip.png" alt="" aria-hidden="true" className="absolute left-1/2 top-6 z-10 w-14 -translate-x-1/2 -translate-y-1/2" />
+					<img src={publicUrl('/assets/paperclip.png')} alt="" aria-hidden="true" className="absolute left-1/2 top-6 z-10 w-14 -translate-x-1/2 -translate-y-1/2" />
 					<h3 className="mb-6 text-3xl">Volunteer Work</h3>
 					<div className="body-copy">
 						<p>

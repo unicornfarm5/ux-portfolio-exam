@@ -1,3 +1,5 @@
+import { publicUrl } from '../app/publicUrl.js'
+
 const email = String.fromCharCode(
   108, 105, 110, 101, 97, 46, 109, 111, 108, 116, 118, 101, 100,
   64, 103, 109, 97, 105, 108, 46, 99, 111, 109,
@@ -20,7 +22,7 @@ export function ContactSection() {
             aria-label="Visit Linea Moltved on LinkedIn"
             className="transition-opacity hover:opacity-70"
           >
-            <img src="/img/linkedIn.png" alt="LinkedIn" className="h-12 w-12 scale-155 object-contain" />
+            <img src={publicUrl('/img/linkedIn.png')} alt="LinkedIn" className="h-12 w-12 scale-155 object-contain" />
           </a>
           <a
             href="https://github.com/unicornfarm5"
@@ -29,7 +31,7 @@ export function ContactSection() {
             aria-label="Visit Linea Moltved on GitHub"
             className="transition-opacity hover:opacity-70"
           >
-            <img src="/img/github.png" alt="GitHub" className="h-12 w-12 object-contain" />
+            <img src={publicUrl('/img/github.png')} alt="GitHub" className="h-12 w-12 object-contain" />
           </a>
         </div>
       </div>

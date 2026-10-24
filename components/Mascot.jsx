@@ -76,14 +76,14 @@ export function Mascot() {
     >
       {showGreeting && (
         <img
-          src="/assets/hi-from-thea.png"
+          src={publicUrl('/assets/hi-from-thea.png')}
           alt="Hej fra Thea"
           className="mascot-greeting pointer-events-none absolute -top-14 left-1/2 h-20 w-auto -translate-x-1/2 object-contain"
         />
       )}
       {showHeart && (
         <img
-          src="/assets/heart.png"
+          src={publicUrl('/assets/heart.png')}
           alt=""
           aria-hidden="true"
           className="mascot-heart pointer-events-none absolute -top-10 left-1/2 h-8 w-8 -translate-x-1/2 object-contain"
@@ -102,7 +102,7 @@ export function Mascot() {
         className="mascot-wiggle-trigger block w-full cursor-grab touch-none select-none appearance-none border-0 bg-transparent p-0 active:cursor-grabbing"
       >
         <img
-          src="/assets/favicon-thea.png"
+          src={publicUrl('/assets/favicon-thea.png')}
           alt="Thea"
           draggable="false"
           className="block h-auto w-full"
@@ -111,3 +111,4 @@ export function Mascot() {
     </div>
   )
 }
+import { publicUrl } from '../app/publicUrl.js'

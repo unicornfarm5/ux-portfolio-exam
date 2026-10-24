@@ -1,3 +1,5 @@
+import { publicUrl } from '../app/publicUrl.js'
+
 const skills = [
   'HTML, JavaScript, CSS',
   'React',
@@ -19,7 +21,7 @@ export function About() {
       <div className="section-wrap grid gap-12 md:grid-cols-[0.8fr_1.2fr]">
         <div className="md:pt-8">
           <img
-            src="/img/portrait.png"
+            src={publicUrl('/img/portrait.png')}
             alt="Portrait of Linea Moltved"
             className="h-full w-full object-cover"
           />

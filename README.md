@@ -1,5 +1,5 @@
 # Linea Moltved Portfolio
-Live on [lineamoltved.com](https://lineamoltved.com) 😇
+Live on [lineamoltved.com/ux](https://lineamoltved.com/ux) 😇
 React and Tailwind CSS reconstruction of my first portfolio draft at [lineamoltved.wixsite.com/portfolio](https://lineamoltved.wixsite.com/portfolio).
 
 I'm a IT-architecture student with a passion for UX and testing
@@ -17,6 +17,8 @@ I'm a IT-architecture student with a passion for UX and testing
 - `data/projects.json` is the content source.
 - `public/img/` general images.
 - `public/projects/`project images referenced by the JSON data.
+
+The Vite base path is `/ux/`, matching the deployment directory on Simply.
 
 ### Run locally
 
