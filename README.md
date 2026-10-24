@@ -3,7 +3,7 @@ Live on [lineamoltved.com/ux](https://lineamoltved.com/ux) 😇
 React and Tailwind CSS reconstruction of my first portfolio draft at [lineamoltved.wixsite.com/portfolio](https://lineamoltved.wixsite.com/portfolio).
 
 I'm a IT-architecture student with a passion for UX and testing
-
+ 
 ### Tech stack
 - React
 - Tailwind CSS
