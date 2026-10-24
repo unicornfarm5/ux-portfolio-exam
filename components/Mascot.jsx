@@ -4,6 +4,8 @@ export function Mascot() {
   const [animationKey, setAnimationKey] = useState(0)
   const [showHeart, setShowHeart] = useState(false)
   const [showGreeting, setShowGreeting] = useState(false)
+  const [showGreeting2, setShowGreeting2] = useState(false)
+  const [hasShownGreeting2, setHasShownGreeting2] = useState(false)
   const [position, setPosition] = useState({ x: null, y: null })
   const feedbackTimer = useRef(null)
   const dragOffset = useRef({ x: 0, y: 0 })
@@ -28,6 +30,20 @@ export function Mascot() {
       feedbackTimer.current = window.setTimeout(() => setShowGreeting(false), 1400)
       return
     }
+
+    if (!hasShownGreeting2) {
+    setHasShownGreeting2(true)
+    setShowGreeting2(true)
+    setShowGreeting(false)
+    setShowHeart(false)
+
+   feedbackTimer.current = window.setTimeout(
+      () => setShowGreeting2(false),
+      1400
+    )
+
+    return
+  }
 
     setShowHeart(true)
     setShowGreeting(false)
@@ -76,8 +92,15 @@ export function Mascot() {
     >
       {showGreeting && (
         <img
-          src={publicUrl('/assets/hi-from-thea.png')}
+          src={publicUrl('/assets/thea1.png')}
           alt="Hej fra Thea"
+          className="mascot-greeting pointer-events-none absolute -top-14 left-1/2 h-20 w-auto -translate-x-1/2 object-contain"
+        />
+      )}
+      {showGreeting2 && (
+        <img
+          src={publicUrl('/assets/thea2.png')}
+          alt="Jeg vil følge med dig rundt på siden i dag"
           className="mascot-greeting pointer-events-none absolute -top-14 left-1/2 h-20 w-auto -translate-x-1/2 object-contain"
         />
       )}
