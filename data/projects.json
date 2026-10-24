@@ -1,41 +1,41 @@
 [
   {
-    "id": "savetheearth",
-    "title": "Developing an app for learning: SaveTheEarth",
-    "description": "On second semester, my group and I developed a MVP for a learning app with a game ready to be integrated in the lesson plan on climate change for 5th graders in collaboration with the company CDM.",
+    "id": "plastic-change",
+    "title": "Humanity-centered design: World Cleanupday Campaign",
+    "description": "On my fifth semester UX-design and koncept development, my group and I developed a MVP for a campaign for the NGO Plastic Change, engageing kids to take action against plastic pollution, and come up with a way to generate revenue stream for the NGO.",
     "images": [
-      "/projects/earth_game.png",
-      "/projects/image3.png",
-      "/projects/image4.png",
-      "/projects/image5.png",
-      "/projects/image6.png",
-      "/projects/image7.png"
+      "/projects/Plastic change/landingPage.png",
+      "/projects/Plastic change/image.png",
+      "/projects/Plastic change/paper.png",
+      "/projects/Plastic change/pc - bmc.png",
+      "/projects/Plastic change/ux canvas.png",
+      "/projects/Plastic change/business.png"
     ],
     "imageCaptions": [
-      "Game page with CTA from the app",
-      "Student login was essential for the app",
-      "Style style for the app",
-      "High fidelity prototype: Game wireframes",
-      "Moodboard for the app with focus on the target audience and sustainability",
-      "Our final idea for the wireframes for the app, with the game and a scoreboard for school classes to compete"
+      "Landing page",
+      "User stories brainstorming",
+      "Landing page paper prototype",
+      "Sustainable Business Model Canvas for our concept",
+      "Sustainable UX Canvas for our concept",
+      "Side inviting sponsors to join the campaign, with focus on the value for the sponsor"
     ],
     "keySkills": [
-      "Design process",
-      "Persona",
-      "UI testing"
+      "Sustainable design",
+      "Design to business process",
+      "Eye tracking"
     ],
     "sections": [
       {
         "heading": "Project description",
-        "text": "Focused on translating business needs, and integration with existing business website as an element in the user journey, while keeping the MVP focused on the 10-year-old target audience. This made the design process a good challenge, as we tested prototypes on kids with think-aloud tests. Our research showed we could make a design that was fun, engaging and with elements of competition. We combined the learning with a simple game, and developed a scoreboard page for school classes to compete."
+        "text": "Focused on creating a sustainable and user-friendly solution for the NGO Plastic Change to create new revenue streams, with a focus on engaging more kids in the fight against plastic pollution. Our koncept re-thought sponsorship for the NGO, and proposed a more valueable and attacktive solution to sponsors."
       },
       {
-        "heading": "Stakeholder management",
-        "text": "I practiced my stakeholder management as we had meetings with the CEO of CDM, Erik Rosenkrantz, and finally presented our solution for him as well as representatives from Friluftsrådet and City of Copenhagen. These stakeholders had very different priorities, and it became a learningsful challenge to manage and prioritize."
+        "heading": "Design choices for sustainability, revenue stream and engagement",
+        "text": "Even trough the users of the campaign where theachers and kids in 4,-9th grade, we designed the website for only teachers and sponsors. The side was two flows for signing up: as a educator that is planning a cleanup and as a new sponsor. A key point from the project was to make sponsorships more attractive for companies, and the business model build on them getting both advertisement and a certificate to share on LinkedIn. Secondly the sponsors also gained value from helping the envirement and their ESG's ratings"
       }
     ],
     "link": "",
-    "githubRepo": ""
+    "githubRepo": "https://github.com/unicornfarm5/plastic-change"
   },
   {
     "id": "min-stroem",
