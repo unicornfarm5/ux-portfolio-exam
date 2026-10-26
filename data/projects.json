@@ -38,61 +38,64 @@
     "githubRepo": "https://github.com/unicornfarm5/plastic-change"
   },
   {
-    "id": "min-stroem",
-    "title": "Design and develop page for Min Strøm app",
-    "description": "Working with the head developer, owner and UX designer from the Min Strøm app, with over 500,000 downloads, my group redesigned and built a page for the app during our second semester.",
+    "id": "arcade-game",
+    "title": "Design arcade game prototype",
+    "description": "Working with game dynamics and design, we build the game in carboard, and tested it on users. ",
     "images": [
-      "/projects/image1.png",
-      "/projects/image2.png"
+      "/projects/arcade-game/game.png",
+      "/projects/arcade-game/arcade.png",
+      "/projects/arcade-game/paper-sketch.png"
     ],
     "imageCaptions": [
-      "Min Strøm app today, the finished design with elements from our prototypes",
-      "Min Strøm prototype wireframes, used as a guide for development"
+      "Game prototype being build",
+      "Game elements",
+      "Paper sketch from brainstorming before we desided on the final concept"
     ],
     "keySkills": [
-      "App development",
-      "Understanding user journey",
-      "Project management"
+      "Paper prototypeing",
+      "Wizars of Oz test",
+      "Concept development"
     ],
     "sections": [
       {
         "heading": "The process",
-        "text": "Through conversations with the app team, user interviews and think-aloud tests facilitated by us, we improved the user journey. From the insights we collected, we made low-fidelity prototypes for the app team to evaluate. Through a few iterations, we developed our improved app in Kotlin Compose, the programming language for Android apps."
+        "text": "After brainstorming we make quick sketches to visualise the best 2 ideas, from here we chose one. Working with game dynamics and design, we build the game in carboard, and tested it on users. For the test more testers whouls have been better, but we still got insights on our button icons witch was changed. A key insight was that the fire extinguisher was the tool the user was looking for, even trough the water was the more active part."
       }
     ],
-    "link": "https://www.minstroem.app/",
+    "link": "",
     "githubRepo": ""
   },
   {
-    "id": "g-james-waste-reduction",
-    "title": "Designing to reduce waste in G James business process",
-    "description": "My group worked with business analytics tools such as SWOT, TOWS, SIPOC, GAP analysis and BPMN, as well as stakeholder management, to find solutions to reduce waste in the giant warehouses and improve the company's digital maturity.",
+    "id": "Redesign Alletiders Kogebog",
+    "title": "Redesign Alletiders Kogebog: More than a new look",
+    "description": "My groups re-design was build after our persona: a food influencer named Grace searching for more than the AS IS side chould give, as well as designing for a more intuative website while under strict priorities working with only 8 story points.",
     "images": [
-      "/projects/GJames.png",
-      "/projects/GJames_requirements.png",
-      "/projects/GJames_timeline.png"
+      "/projects/kogebog/profil.png",
+      "/projects/kogebog/profil.png",
+      "/projects/kogebog/low-wireframes.png"
     ],
     "imageCaptions": [
-      "G James via their website",
-      "G James solution requirements",
-      "Our timeline for digital maturity in the company factory"
+      "Profile view - open image for full view",
+      "High fi profil view (Figma) - this was a new feature and a MUST HAVE feature for our persona Grace, to be able to connect with other users and share recipes",
+      "Low fi wireframes with the essential features we developed."
     ],
     "keySkills": [
-      "Stakeholder management",
-      "Inclusive design",
-      "Design to business process"
+      "Priotering",
+      "Persona",
+      "Concept development",
+      "Psychology in design"
     ],
     "sections": [
       {
         "heading": "The project",
-        "text": "In my third semester, I worked with the Australian company G James, a manufacturing business specialising in the production of aluminium windows and doors, building facades, glass and aluminium extrusions."
+        "text": "We investigated the side and made a heuristic evaluation. We worked driven by the persona of Grace the food influencer starting with HMW questions with lead to user stories we had to prioritze after finding direction, and build prototypes of low, mig and high fidelity in Figma. The process also had twist presentations for our class'es UX standup. "
       },
       {
-        "heading": "Designing for a different context",
-        "text": "It was a fun challenge to design for a user group that was not English-speaking, but used many different languages, had limited reading skills and worked within a very different work culture from Denmark. We found that workplace norms such as not sharing opinions, not asking questions and a top-down approach with little employee involvement resulted in a slow feedback flow. Designing for users with low digital maturity was a very different and valuable learning experience."
+        "heading": "What problems were solved ?",
+        "text": "Grace's needs for community was a whole new direction for Alletiders Kogebog, and with the low amout of ressources we prioritized the MUST HAVE features. This was profiles actually connected to the recipes and comments, and meant that the flow for uploading recipes was changed to be user-only. Before, the site owned the recipie and whould publish it with own photos. We got to redesign the login flow and upload recipe flow."
       }
     ],
-    "link": "https://gjames.com/",
+    "link": "https://www.figma.com/proto/rNe0OAq9y1UYdPKRjTSyzb/Alletiders-Kogebog-re-redign?node-id=7-203&starting-point-node-id=7%3A203&t=raHvRtG5rd2w6EyO-1",
     "githubRepo": ""
   },
   {
@@ -101,20 +104,18 @@
     "subtitle": "Personal project for fun - you can try soon (when i migrate backend so it can be used upsi)",
     "description": "Small site to keep track of your plants and their needs. Login to add plants and edit your own digital garden. Will soon be deployed for you to try!",
     "images": [
-      "/projects/green1.png",
-      "/projects/green_forside.png",
-      "/projects/green_plantside.png",
-      "/projects/green3.png", 
-      "/projects/green4.png",
-      "/projects/green2.png"
+      "/projects/greenhouse-princess/green1.png",
+      "/projects/greenhouse-princess/green2.png",
+      "/projects/greenhouse-princess/green3.png", 
+      "/projects/greenhouse-princess/green4.png",
+      "/projects/greenhouse-princess/green5.png"
     ],
     "imageCaptions": [
       "edit plant menu",
       "My profile on mobile",
       "A plant page with all posts",
-      "Plant list page",
-      "Add new plant pop up",
-      "Login page"
+      "Plant list page on desktop",
+      "Add new plant pop up desktop"
     ],
     "keySkills": [
       "React",
